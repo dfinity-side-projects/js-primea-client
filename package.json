@@ -1,0 +1,41 @@
+{
+  "name": "primea-client",
+  "version": "0.1.0",
+  "description": "client interface for primea",
+  "scripts": {
+    "coveralls": "npm run coverage && nyc report --reporter=text-lcov | coveralls",
+    "coverage": "nyc npm test",
+    "lint": "standard",
+    "test": "node ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfinity/js-primea-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dfinity/js-primea-client/issues"
+  },
+  "homepage": "https://github.com/dfinity/js-primea-client",
+  "keywords": [
+    "primea"
+  ],
+  "author": "norton@dfinity.org",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "binary-search-insert": "^1.0.3",
+    "borc": "^2.0.3",
+    "debug": "^3.1.0",
+    "dfinity-radix-tree": "^0.2.5",
+    "dfinity-tx": "git+https://github.com/dfinity/js-dfinity-tx.git",
+    "events": "^3.0.0",
+    "level-browserify": "^1.1.2",
+    "primea-hypervisor": "^0.9.3",
+    "primea-objects": "0.1.1",
+    "primea-wasm-container": "^0.9.3",
+    "safe-buffer": "^5.1.2"
+  },
+  "devDependencies": {
+    "standard": "11.0.1",
+    "tape": "^4.9.0"
+  }
+}
