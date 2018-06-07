@@ -31,7 +31,7 @@
     "level-browserify": "^1.1.2",
     "primea-hypervisor": "^0.9.3",
     "primea-objects": "0.1.1",
-    "primea-wasm-container": "^0.9.3",
+    "primea-wasm-container": "^0.9.4",
     "safe-buffer": "^5.1.2"
   },
   "devDependencies": {
