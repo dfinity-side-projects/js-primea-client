@@ -28,7 +28,7 @@
     "dfinity-radix-tree": "^0.2.5",
     "dfinity-tx": "git+https://github.com/dfinity/js-dfinity-tx.git",
     "events": "^3.0.0",
-    "level-browserify": "^1.1.2",
+    "level-browserify": "^2.0.0",
     "primea-hypervisor": "^0.9.3",
     "primea-objects": "0.1.1",
     "primea-wasm-container": "^0.9.4",
